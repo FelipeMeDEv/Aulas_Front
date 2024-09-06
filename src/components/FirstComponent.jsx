@@ -1,18 +1,14 @@
 import React from 'react'
+import FourthComponent from './FourthComponent'
+import SecondComponent from './SecondComponent'
+
 
 const FirstComponent = () => {
-    const nome = "Felipe";
-    const sobrenome = "de Melo Soares";
-    const matricula = 1234;
   return (
     <div>
-      
-
-        <h1> o meu nome completo é {nome} {sobrenome} e minha matrícula é {matricula} </h1>
-    
+      <FourthComponent />
+      <SecondComponent />
     </div>
-
-
   )
 }
 
