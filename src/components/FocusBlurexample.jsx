@@ -33,7 +33,7 @@ const FocusBlurExample = () => {
         }}
       />
       <div style={{ marginTop: '20px' }}>
-        {isFocused ? <p>The input is focused!</p> : <p>The input is not focused.</p>}
+        {isFocused ? <p>Tá focado</p> : <p>não está focado.</p>}
       </div>
       <p>Input value: {inputValue}</p>
     </div>
